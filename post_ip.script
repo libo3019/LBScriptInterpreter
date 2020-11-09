@@ -1,0 +1,14 @@
+#!/usr/local/bin/LBScriptInterpreter
+
+begin
+  pass = "change this"
+  url  = "www.163.com"
+  
+  cmd     = "ping " + url
+  println("Now running, please wait...\n")
+  result  = run( cmd )
+  
+  test    = substr( result, 5,100 )
+  println ( test  )
+  
+end

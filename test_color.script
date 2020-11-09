@@ -1,0 +1,8 @@
+#!/usr/local/bin/LBScriptInterpreter
+
+begin
+  result=run("set CLICOLOR_FORCE=Yes && set CLICOLOR=Yes && set TERM=xterm-256color && dir")
+  print( result )
+  
+end
+

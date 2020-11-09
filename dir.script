@@ -1,0 +1,12 @@
+#!/usr/local/bin/LBScriptInterpreter
+
+begin
+
+  for i=2 to "19"
+  begin
+    line=run("dir /l")
+    print("line", i-1,"\t", line)
+  end
+
+end
+

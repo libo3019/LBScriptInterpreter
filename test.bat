@@ -1,0 +1,17 @@
+LBScriptInterpreter assigns.script
+LBScriptInterpreterchangepath.script
+LBScriptInterpreterdir-foreach.script
+LBScriptInterpreter dir.script
+LBScriptInterpreterforeach.script
+LBScriptInterpreter forloops.script
+LBScriptInterpreter functions.script
+LBScriptInterpreter ifs.script
+LBScriptInterpreter input.script
+LBScriptInterpreter post_ip.script
+LBScriptInterpreter runtest.script
+LBScriptInterpreter strings.script
+LBScriptInterpreter swap_vars.script
+LBScriptInterpreter test.script
+LBScriptInterpreter test_color.script
+LBScriptInterpreter test_script.script
+LBScriptInterpreter while.script

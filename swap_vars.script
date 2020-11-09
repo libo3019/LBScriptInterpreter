@@ -1,0 +1,14 @@
+swap(out v1,out v2)
+{
+	t = v1
+	v1 = v2
+	v2 = t
+}
+
+{
+  n1 = 1
+  n2 = 2
+  println("Before swapping: n1 = ", n1, ", n2 = ", n2)
+  swap(n1, n2)
+  println("Before swapping: n1 = ", n1, ", n2 = ", n2)
+}

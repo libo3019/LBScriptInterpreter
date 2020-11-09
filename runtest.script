@@ -1,0 +1,6 @@
+#!/usr/local/bin/LBScriptInterpreter
+
+begin
+  dir = run ("dir")
+  println ("dir=",dir)
+end

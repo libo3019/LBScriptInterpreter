@@ -1,0 +1,18 @@
+#!/usr/local/bin/LBScriptInterpreter
+
+begin
+
+  #change the dir so that is the same as in the makefile!  
+  INSTALL_DIR = "D:\\MyTasks\\Compilers\\LBScriptInterpreter\\bin"
+  NEWPATH     ="#!"+INSTALL_DIR+"\\Interpret"
+
+  new_file = "D:\\MyTasks\\Compilers\\LBScriptInterpreter\\examples\\info.txt"
+  foreach file in run( "dir *.script /w D:\\MyTasks\\Compilers\\LBScriptInterpreter\\examples" )
+  begin
+      script= run( "type "+file+" | grep -v /Interpreter " )
+      println(script)
+	  script= NEWPATH+"\n"+script
+      write( new_file, script, "w")
+  end
+end
+

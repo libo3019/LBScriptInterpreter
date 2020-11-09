@@ -1,0 +1,10 @@
+#!/usr/local/bin/LBScriptInterpreter
+begin
+output=run("
+dir &
+set &
+bison --help
+")
+println (output)
+end
+

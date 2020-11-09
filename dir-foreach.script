@@ -1,0 +1,29 @@
+#!/usr/local/bin/LBScriptInterpreter
+
+begin
+
+  ###################################
+  #foreach met default seperator = \n
+  #
+  i=0
+  foreach line in run("dir /l")
+  begin
+    i=i+1
+    println(i,".\t", line)
+  end
+
+
+  print("\n\nnow seperate on '\t\n'\n")
+  
+  #################################
+  #foreach with different seperator
+  #
+  i=0
+  foreach line in run("dir /l") seperated by " \t\n"
+  begin
+    i=i+1
+    println(i,"...\t", line)
+  end
+
+end
+
